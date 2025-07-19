@@ -18,7 +18,7 @@ git init
 git add .
 git commit -m "message"
 git branch -M main //改本地分支名字
-git remote origin "git@xxx" //配置一个远程仓库，别名origin
+git remote add origin "git@xxx" //配置一个远程仓库，别名origin
 git push -u origin main //将本地分支提交到远程仓库，没有对应名字分支则创建对应分支，也可以提交到不同名字的分支比如git push -u origin main:dev；这句语句之后本地分支和远程分支之间就会建立关联，直接push就是对应分支
 
 //前面配置完，就可以使用这些语句进行简单的提交
